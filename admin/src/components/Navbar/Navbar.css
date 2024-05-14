@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(10%, 80px);
+}
+
+.home-button{
+    padding: 10px;
+    color: black;
+    background: tomato;
+    border: 1px solid tomato;
+    font-weight: 500;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+.home-button:hover{
+    color: white;
+    border: 1px solid green;
+    background: green;
+}
